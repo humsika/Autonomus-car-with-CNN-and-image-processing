@@ -1,4 +1,4 @@
-Self-Driving Car
+### Self-Driving Car using CNN and Image Processing
 
 Project Autopilot predicts the steering angle for a self-driving car using deep learning. Inspired by NVIDIA's End-to-End Learning for Self-Driving Cars, this project utilizes Convolutional Neural Networks (CNNs) to analyze road conditions and determine the appropriate steering angle.
 
