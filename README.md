@@ -1,61 +1,46 @@
-## Self Driving Car
-Project Autopilot helps in getting the angle of steering rotation in a self-driving car. This project is inspired by <b>NVIDIA End to End Learning for Self-Driving Cars</b> and data is gathered from <b>Udacity's Behavioral Cloning repository</b>. It is written in Python and leveraged Keras for Deep Learning functions. 
+Self-Driving Car
 
-The End to End Learning for Self-Driving Cars research paper can be found in the below table.
-This repository uses Convolutional Neural Networks to predict steering angle according to the road. 
+Project Autopilot predicts the steering angle for a self-driving car using deep learning. Inspired by NVIDIA's End-to-End Learning for Self-Driving Cars, this project utilizes Convolutional Neural Networks (CNNs) to analyze road conditions and determine the appropriate steering angle.
 
-| 🗃 Dataset | 📑 Original Paper | 💡 Inspiration | 📌 Data Reference |
-|:-:|:-:|:-:|:-:|
-|[Dataset](https://github.com/SullyChen/driving-datasets)|[Paper](https://arxiv.org/abs/1604.07316)|[NVIDIA Self-driving](https://devblogs.nvidia.com/deep-learning-self-driving-cars/)|[Udacity](https://github.com/udacity/CarND-Behavioral-Cloning-P3)|
+🔹 Features
 
-#### Note: 
-💡 **I have made implementation code `AutopilotApp_V2.py` private to avoid misuse, feel free to contact me @v.snehith999@gmail.com to buy complete directory ✌**<br>
-🔑 **If you're looking any Btech/Mtech/Academic projects? Ping me, I have a bunch**
+Predicts steering angles using deep learning.
 
-### 🧠 Main Credits
-**This repo is whole and sole referenced from [Akshay Bahadur](https://github.com/akshaybahadur21)**
+Utilizes CNNs for image-based road analysis.
 
-### 🛠 Output
-<img src="https://github.com/snehitvaddi/SelfDriving-Car_Deep-Learning/blob/master/Selfdriving-output.gif" width="300" height="300">
+Trained on Udacity’s Behavioral Cloning dataset.
 
-### 🗃 Dataset
-Download the dataset from (https://github.com/SullyChen/driving-datasets) and extract it into the repository folder.<br>
+Implemented in Python using Keras.
 
-Data format is as follows: `filename.jpg angle,year-mm-dd hr:min:sec:millisec`
+📂 Dataset
 
-### 🏃‍♂️ How to Run the code
-Step-1: Run `LoadData_V2.py`. This will flow through the dataset and generates `labels` and `features` pickle files.<br>
-Step-2: After generating two files, run `Train_pilot.py` which will load pickle files. After this, the training process begins.<br>
-Step-3: For testing it on the video, run `AutopilotApp_V2.py`<br>
-**I have made `AutopilotApp_V2.py` private to avoid misuse, feel free to contact me @v.snehith999@gmail.com for complete directory ✌**
+Download the dataset from here and extract it into the repository folder.
 
-### 💡 Support
-Support my work my marking this repo with a <b>"⭐ star"</b>
+Data Format: filename.jpg angle,year-mm-dd hr:min:sec:millisec
 
-### 📰 Generic Description
-An autonomous car (also known as a driverless car, self-driving car, and robotic car) is a vehicle that is capable of sensing its environment and navigating without human input. Autonomous cars combine a variety of techniques to perceive their surroundings, including radar, laser light, GPS, odometry, and computer vision. Advanced control systems interpret sensory information to identify appropriate navigation paths, as well as obstacles and relevant signage.
+🚀 How to Run
 
+Preprocess Data: Run LoadData_V2.py to generate labels and features pickle files.
 
-### 📩 Packages Installation 
-Use the `pip install -r requirements.txt` command to install packages in one go.
-You can also use conda to get rid of any version problems.
+Train Model: Execute Train_pilot.py to train the model.
 
- ### 📢 Note:
- If you have a specific request or have an idea of better implementation, ping me:<br>
-<b>@LinkedIn:</b> [Snehit Vaddi](https://www.linkedin.com/in/snehitvaddi/)<br>
-<b>@Email:</b> (v.snehith999@gmail.com) 
+Test on Video: Run AutopilotApp_V2.py to see the model in action.
 
-<br>
-If you face any problem, kindly raise an issue
+🛠 Installation
 
-### 🔗 References:
- - Mariusz Bojarski, Davide Del Testa, Daniel Dworakowski, Bernhard Firner, Beat Flepp, Prasoon Goyal, Lawrence D. Jackel, Mathew Monfort, Urs Muller, Jiakai Zhang, Xin Zhang, Jake Zhao, Karol Zieba. [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
- - [Behavioral Cloning Project](https://github.com/udacity/CarND-Behavioral-Cloning-P3) 
- - This implementation also took a lot of inspiration from the Sully Chen github repository: https://github.com/SullyChen/Autopilot-TensorFlow  
+Install dependencies using:
 
+pip install -r requirements.txt
 
+For Conda users:
 
+conda install --file requirements.txt
 
+📌 Note
 
+For collaboration or project inquiries, reach out via LinkedIn.
 
-# Autonomus-car-with-CNN-and-image-processing
+🔗 References
+
+Inspired by Akshay Bahadur and NVIDIA’s research on self-driving technology.
+
